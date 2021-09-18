@@ -1,0 +1,11 @@
+name = "lkr"
+type = "webpack"
+account_id = "20bf2f5d11d26a322e389687896a6601"
+workers_dev = true
+route = "lkrevival.com/*"
+zone_id = "716c138645430cffb076ee7ee8c9ce58"
+
+[site]
+bucket = "./website"
+entry-point = "workers-site"
+include = ["index.html", "near.js", "state.js", "old/**/*", "react/*", "wasm/**/*"]
